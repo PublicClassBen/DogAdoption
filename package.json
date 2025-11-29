@@ -1,0 +1,26 @@
+{
+  "name": "dogadoption",
+  "version": "1.0.0",
+  "description": "API for a dog adoption platform",
+  "license": "ISC",
+  "author": "Benjamin Triggiani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4",
+    "vitest": "^4.0.14"
+  }
+}
